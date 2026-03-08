@@ -10,7 +10,7 @@ void p2_2(void)
 {
 	int ilong =0;
 	int iyard=0;
-	cout<<"ÇëÊäÈëlong¾àÀë"<<endl;
+	cout<<"è¯·è¾“å…¥longè·ç¦»"<<endl;
 	cin>>ilong;
 	iyard=ilong*220;
 	cout<<iyard<<endl;
@@ -23,7 +23,7 @@ void mice(void)
 }
 void run(void)
 {
-cout<<"See how they run"<<endl;
+	cout<<"See how they run"<<endl;
 }
 void p2_3(void)
 {
@@ -45,24 +45,24 @@ void p2_4(void)
 
 void p2_5(void)
 {
-int celsius=0;
-int Fahrenheit=0;
-cout<<"Please enter a Celsius value :"<<" ";
-cin>>celsius;
-Fahrenheit= 1.8 * celsius + 32.0;
-cout<<celsius<<"degrees Celsius is "<<Fahrenheit <<" degrees Fahrenheit";
+	int celsius=0;
+	int Fahrenheit=0;
+	cout<<"Please enter a Celsius value :"<<" ";
+	cin>>celsius;
+	Fahrenheit= 1.8 * celsius + 32.0;
+	cout<<celsius<<"degrees Celsius is "<<Fahrenheit <<" degrees Fahrenheit";
 
 
 }
 
 void p2_6(void)
 {
-double lightyear=0;
-double astro=0;
-cout<<"Enter the number of light years : ";
-cin>>lightyear;
-astro=lightyear*63240;
-cout<<lightyear<<"light years = "<<astro<<"astronomical units."<<endl;
+	double lightyear=0;
+	double astro=0;
+	cout<<"Enter the number of light years : ";
+	cin>>lightyear;
+	astro=lightyear*63240;
+	cout<<lightyear<<"light years = "<<astro<<"astronomical units."<<endl;
 }
 
 
@@ -71,7 +71,7 @@ void p2_7(void)
 {
 	int hours=0;
 	int minutes=0;
-	cout<<"ÇëÊäÈëÐ¡Ê±ÊýºÍ·ÖÖÓÊý"<<endl;
+	cout<<"è¯·è¾“å…¥å°æ—¶æ•°å’Œåˆ†é’Ÿæ•°"<<endl;
 	cin>>hours;
 	cin>>minutes;
 	cout<<"Time: "<<hours<<":"<<minutes<<endl;
